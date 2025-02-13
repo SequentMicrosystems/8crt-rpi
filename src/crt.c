@@ -134,8 +134,8 @@ int doCrtRangeWrite(int argc, char *argv[]) {
 		return ARG_RANGE_ERROR;
 	}
 	uint16_t val = atoi(argv[4]);
-	if(!(1 <= val && val <= 500)) { // TODO: Change this range
-		printf("Invalid amperage value, must be 1..500\n"); // TODO: Also here
+	if(!(1 <= val && val <= 300)) {
+		printf("Invalid max range value, must be 1..300\n");
 		return ARG_RANGE_ERROR;
 	}
 	uint8_t buf[ANALOG_VAL_SIZE];
@@ -150,7 +150,7 @@ const CliCmdType CMD_CRT_IN_CAL = {/*{{{*/
 	"cal",
 	2,
 	&doCrtInCal,
-	"  cal              Calibrate current input channel, the calibration must be done in 2 points at min 10mA apart\n",
+	"  cal              Calibrate current input channel, the calibration must be done in 2 points as far away as possible\n",
 	"  Usage 1:         "PROGRAM_NAME" <id> cal <channel> <value(A)>\n"
 	"  Usage 2:         "PROGRAM_NAME" <id> cal <channel> reset\n",
 	"  Example:         "PROGRAM_NAME" 0 cal 1 5; Calibrate the current input channel #1 on board #0 at 5A\n"
