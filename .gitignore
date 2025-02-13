@@ -51,5 +51,10 @@ Module.symvers
 Mkfile.old
 dkms.conf
 
+build/
+
+8crt
+
+
 /python/build/
 /python/dist/
