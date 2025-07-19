@@ -55,6 +55,10 @@ build/
 
 8crt
 
-
+# python build directories
+__pycache__/
 /python/build/
 /python/dist/
+/python/docs/markdown/
+/python/docs/doctrees/
+/python/*.egg-info/
