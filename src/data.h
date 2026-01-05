@@ -9,7 +9,7 @@
 
 #define CARD_NAME "8Current"
 #define PROGRAM_NAME "8crt"
-#define VERSION "1.0.0"
+#define VERSION "1.0.1"
 
 #define SLAVE_OWN_ADDRESS_BASE 0x19
 
@@ -106,11 +106,13 @@ enum
 	SLAVE_BUFF_SIZE = 255,
 };
 
-
+#define I2C_MODBUS_SETINGS I2C_MODBUS_SETINGS_ADD
 #define ERROR -1
+#define ERR ERROR
 #define OK 0
 #define ARG_CNT_ERR -2
 #define ARG_RANGE_ERROR -3
+#define ARG_RANGE_ERR ARG_RANGE_ERROR
 #define IO_ERROR -4
 
 #define STR_(x) #x

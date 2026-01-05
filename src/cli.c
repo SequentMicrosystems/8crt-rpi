@@ -5,6 +5,7 @@
 #include "led.h"
 #include "rtc.h"
 #include "wdt.h"
+#include "rs485.h"
 
 const CliCmdType *gCmdArray[] = {
 	&CMD_HELP,
@@ -31,5 +32,7 @@ const CliCmdType *gCmdArray[] = {
 	&CMD_WDT_SET_OFF_PERIOD,
 	&CMD_WDT_GET_RESET_COUNT,
 	&CMD_WDT_CLR_RESET_COUNT,
+	&CMD_CFG485_READ,
+	&CMD_CFG485_WRITE,
 	0
 };
