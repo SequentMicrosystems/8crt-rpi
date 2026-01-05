@@ -1,4 +1,6 @@
-# TODO
+[![8crt-rpi](sequent.jpg)](https://sequentmicrosystems.com)
+
+# [HALL Current Sensor DAQ 8-Layer Stackable HAT for Raspberry Pi](https://sequentmicrosystems.com/products/hall-current-sensor-daq-stackable-hat-for-raspberry-pi)
 
 ## Setup
 
@@ -6,9 +8,9 @@ Enable I2C communication first:
 ```bash
 sudo raspi-config
 ```
-A good article about I2C on Raspberry can be found [here](https://www.raspberrypi-spy.co.uk/2014/11/enabling-the-i2c-interface-on-the-raspberry-pi/).
+A good article about I2C on Raspberry Pi can be found [here](https://www.raspberrypi-spy.co.uk/2014/11/enabling-the-i2c-interface-on-the-raspberry-pi/).
 
-If you use Ubuntu you need to install `raspi-config` first:
+If you use Ubuntu, you need to install `raspi-config` first:
 ```bash
 sudo apt update
 sudo apt install raspi-config
@@ -29,7 +31,7 @@ cd 8crt-rpi/
 sudo make install
 ```
 
-Now you can access all the functions of the [TODO]() through the command "8crt". Use -h option for help:
+Now you can access all the functions of the [HALL Current Sensor DAQ 8-Layer Stackable HAT for Raspberry Pi](https://sequentmicrosystems.com/products/hall-current-sensor-daq-stackable-hat-for-raspberry-pi) through the command "8crt". Use -h option for help:
 ```bash
 8crt -h
 ```
