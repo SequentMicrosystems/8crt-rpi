@@ -1,7 +1,7 @@
 [![8crt-rpi](sequent.jpg)](https://sequentmicrosystems.com)
 
 # [HALL Current Sensor DAQ 8-Layer Stackable HAT for Raspberry Pi](https://sequentmicrosystems.com/products/hall-current-sensor-daq-stackable-hat-for-raspberry-pi)
-
+[![8crt-rpi](CrtSen.jpg)](https://sequentmicrosystems.com)
 ## Setup
 
 Enable I2C communication first:
